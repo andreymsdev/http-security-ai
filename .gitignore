@@ -1,0 +1,2 @@
+fotos/
+git rm -r --cached fotos/
