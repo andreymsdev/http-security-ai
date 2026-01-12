@@ -58,6 +58,3 @@ python http_security_headers.py --api-key sk-sua-chave http://192.168.186.129/dv
 
 <pre><div><span>Este </span><span>projeto </span><span>faz </span><span>parte </span><span>dos </span><span>meus </span><span>estudos </span><span>em </span><span><span>**ethical hacking**. </span><span>A </span><span>ideia </span><span>é </span><span>aprender </span><span>na </span><span>prática </span><span>como </span><span>os </span><span>cabeçalhos </span><span>HTTP </span><span>influenciam </span><span>a </span><span>segurança </span><span>de </span><span>aplicações </span><span>web, </span><span>identificar </span><span>vulnerabilidades </span><span>e </span><span>aplicar </span><span>inteligência </span><span>artificial </span><span>para </span><span>gerar </span><span>relatórios </span><span>automatizados.</span></div></pre>
 
-⚠️ **Aprender Hacking é lindo mas sempre com consciência**, e**studar hacking é sobre proteger, não invadir.** Use apenas em ambientes controlados ou com permissão explícita.
-
- E lembre-se "*você pode enganar todo o mundo por quase todo tempo, quase todo mundo por todo tempo, mas você não pode enganar todo mundo por todo tempo".*
