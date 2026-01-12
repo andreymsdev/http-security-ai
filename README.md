@@ -2,7 +2,7 @@
 
 ![Pygirl](https://i.pinimg.com/736x/e2/c8/21/e2c82120a3111d153a81596f4b3e71f2.jpg)
 
-<pre><div><span></span><span>Este </span><span>projeto </span><span>realiza </span><span>a </span><span>análise </span><span>de </span><span>cabeçalhos </span><span>HTTP </span><span>de </span><span>sites </span><span>utilizando </span><span>modelos </span><span>de </span><span>linguagem </span><span>(LLMs) </span><span>como </span><span>o </span><span>OpenAI </span><span>ou </span><span>OpenRouter. </span><span>Ele </span><span>identifica </span><span>falhas </span><span>de </span><span>segurança, </span><span>recomenda </span><span>melhorias </span><span>e </span><span>gera </span><span>relatórios </span><span>detalhados </span><span>com </span><span>base </span><span>nas </span><span>melhores </span><span>práticas </span><span>da </span><span>web.</span></div></pre>
+Este projeto realiza a análise de cabeçalhos HTTP de sites utilizando modelos de linguagem (LLMs) como o OpenAI ou OpenRouter. Ele identifica falhas de segurança, recomenda melhorias e gera relatórios detalhados com base nas melhores práticas da web.
 
 ## Funcionalidades
 
