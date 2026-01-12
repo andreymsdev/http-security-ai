@@ -139,10 +139,10 @@ Variáveis de ambiente:
             analisador.exportar_resultados(resultados, args.exportar)
 
     except ValueError as erro:
-        print(f"❌ Erro: {erro}")
+        print(f" Erro: {erro}")
         return 1
     except KeyboardInterrupt:
-        print("\n⛔ Análise interrompida pelo usuário")
+        print("\n Análise interrompida pelo usuário")
         return 1
 
 # Ponto de entrada do script
