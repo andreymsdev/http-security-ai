@@ -56,5 +56,5 @@ python http_security_headers.py --api-key sk-sua-chave http://192.168.186.129/dv
 
 # Observações:
 
-<pre><div><span>Este </span><span>projeto </span><span>faz </span><span>parte </span><span>dos </span><span>meus </span><span>estudos </span><span>em </span><span><span>**ethical hacking**. </span><span>A </span><span>ideia </span><span>é </span><span>aprender </span><span>na </span><span>prática </span><span>como </span><span>os </span><span>cabeçalhos </span><span>HTTP </span><span>influenciam </span><span>a </span><span>segurança </span><span>de </span><span>aplicações </span><span>web, </span><span>identificar </span><span>vulnerabilidades </span><span>e </span><span>aplicar </span><span>inteligência </span><span>artificial </span><span>para </span><span>gerar </span><span>relatórios </span><span>automatizados.</span></div></pre>
+Este projeto faz parte dos meus estudos em **ethical hacking**. A ideia é aprender na prática como os cabeçalhos HTTP influenciam a segurança de aplicações web, identificar vulnerabilidades e aplicar inteligência artificial para gerar relatórios automatizados.
 
