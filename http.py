@@ -71,10 +71,10 @@ Use números, algarismos romanos ou letras para organizar o conteúdo. Formate a
         for chave, valor in cabecalhos.items():
             print(f"{chave}: {valor}")
 
-        print(f"\n🧠 Analisando com IA...")
+        print(f"\n Analisando com IA...")
         analise = self.analisar_cabecalhos(url, cabecalhos, status)
 
-        print("\n🔐 ANÁLISE DE SEGURANÇA")
+        print("\n ANÁLISE DE SEGURANÇA")
         print("=" * 50)
         print(analise)
 
@@ -99,7 +99,7 @@ Use números, algarismos romanos ou letras para organizar o conteúdo. Formate a
         """Exporta os resultados para um arquivo JSON"""
         with open(nome_arquivo, 'w') as f:
             json.dump(resultados, f, indent=2, ensure_ascii=False)
-        print(f"\n📁 Resultados exportados para: {nome_arquivo}")
+        print(f"\n Resultados exportados para: {nome_arquivo}")
 
 # Função principal que lida com argumentos de linha de comando
 def principal():
