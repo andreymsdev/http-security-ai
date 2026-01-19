@@ -1,25 +1,34 @@
-# *Analisador de Cabeçalhos de Segurança HTTP com IA*
+# Analisador de Cabeçalhos de Segurança HTTP com IA
 
 ![Pygirl](https://i.pinimg.com/736x/e2/c8/21/e2c82120a3111d153a81596f4b3e71f2.jpg)
 
-Este projeto realiza a análise de cabeçalhos HTTP de sites utilizando modelos de linguagem (LLMs) como o OpenAI ou OpenRouter. Ele identifica falhas de segurança, recomenda melhorias e gera relatórios detalhados com base nas melhores práticas da web.
+Este projeto realiza a análise de cabeçalhos HTTP de sites utilizando modelos de linguagem (LLMs) via OpenAI ou OpenRouter. Ele identifica falhas de segurança, recomenda melhorias e gera relatórios detalhados com base nas melhores práticas da web.
+
+---
 
 ## Funcionalidades
 
-* **Varredura HTTP:** Busca cabeçalhos de qualquer URL instantaneamente.
-* **Análise Inteligente:** Avaliação completa via IA (DeepSeek, GPT, etc).
-* **Score de Segurança:** Pontuação de 0 a 100 baseada em riscos detectados.
-* **Checklist de Melhorias:** Identifica cabeçalhos ausentes e recomenda correções.
-* **Exportação:** Gera relatórios detalhados em formato `.json`.
+* Varredura HTTP: Busca cabeçalhos de qualquer URL instantaneamente.
+* Análise Inteligente: Avaliação completa via IA (DeepSeek, GPT, etc).
+* Score de Segurança: Pontuação de 0 a 100 baseada em riscos detectados.
+* Checklist de Melhorias: Identifica cabeçalhos ausentes e recomenda correções.
+* Exportação: Gera relatórios detalhados em formato .json.
 
-## Tecnologias 
+## Tecnologias Utilizadas
 
-* **Linguagem:** Python 3.10+
-* **Requisições:** [Requests](https://docs.python-requests.org/)
-* **IA:** [OpenAI SDK](https://platform.openai.com/docs/)
-* **Provedor:** OpenRouter (Modelos flexíveis)
+* Linguagem: Python 3.10+
+* Requisições: [Requests](https://docs.python-requests.org/)
+* IA: [OpenAI SDK](https://platform.openai.com/docs/)
+* Provedor: OpenRouter (Modelos flexíveis)
 
-## Instalação:
+---
+
+## Instalacao
+
+1. Clone o repositorio:
+   ```bash
+   git clone [https://github.com/seu-usuario/analisador-cabecalhos.git](https://github.com/seu-usuario/analisador-cabecalhos.git)
+   cd analisador-cabecalhos
 
 1.  **Clone o repositório:**
     ```bash
