@@ -6,36 +6,40 @@ Este projeto realiza a análise de cabeçalhos HTTP de sites utilizando modelos 
 
 ## Funcionalidades
 
-<pre><div><span><span>-</span></span><span></span><span>Busca </span><span>cabeçalhos </span><span>HTTP </span><span>de </span><span>qualquer </span><span>URL
-</span><span><span>-</span></span><span></span><span>Analisa </span><span>os </span><span>cabeçalhos </span><span>com </span><span>IA </span><span>e </span><span>gera </span><span>relatório </span><span>completo
-</span><span><span>-</span></span><span></span><span>Pontuação </span><span>de </span><span>segurança </span><span>(0–100)
-</span><span><span>-</span></span><span></span><span>Identificação </span><span>de </span><span>cabeçalhos </span><span>ausentes </span><span>ou </span><span>mal </span><span>configurados
-</span><span><span>-</span></span><span></span><span>Recomendações </span><span>práticas </span><span>de </span><span>segurança
-</span><span><span>-</span></span><span></span><span>Exportação </span><span>dos </span><span>resultados </span><span>em </span><span>JSON</span></div></pre>
+* **Varredura HTTP:** Busca cabeçalhos de qualquer URL instantaneamente.
+* **Análise Inteligente:** Avaliação completa via IA (DeepSeek, GPT, etc).
+* **Score de Segurança:** Pontuação de 0 a 100 baseada em riscos detectados.
+* **Checklist de Melhorias:** Identifica cabeçalhos ausentes e recomenda correções.
+* **Exportação:** Gera relatórios detalhados em formato `.json`.
 
-## Tecnologias Utilizadas
+## Tecnologias 
 
-<pre><div><span><span>-</span></span><span></span><span>Python </span><span>3.10+
-</span><span><span>-</span></span><span></span><span>[</span><span><span>Requests</span></span><span>](</span><span><span>https://docs.python-requests.org/</span></span><span>)
-</span><span><span>-</span></span><span></span><span>[</span><span><span>OpenAI SDK</span></span><span>](</span><span><span>https://platform.openai.com/docs/</span></span><span>)
-</span><span><span>-</span></span><span></span><span>Modelos </span><span>LLM </span><span>via </span><span>OpenRouter </span><span>ou </span><span>OpenAI
-</span><span><span>-</span></span><span></span><span>Terminal </span><span>com </span><span>argparse
-</span></div></pre>
+* **Linguagem:** Python 3.10+
+* **Requisições:** [Requests](https://docs.python-requests.org/)
+* **IA:** [OpenAI SDK](https://platform.openai.com/docs/)
+* **Provedor:** OpenRouter (Modelos flexíveis)
 
-# **Instalação**
+## Instalação:
 
-<pre><div><span><span>1.</span></span><span></span><span>Clone </span><span>o </span><span>repositório:
-   </span><span><span>```bash
-   git clone https://github.com/seu-usuario/analisador-cabecalhos.git
-   cd analisador-cabecalhos</span></span></div></pre>
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/seu-usuario/analisador-cabecalhos.git](https://github.com/seu-usuario/analisador-cabecalhos.git)
+    cd analisador-cabecalhos
+    ```
 
-## Instale as dependências:
+2.  **Instale as dependências:**
+    ```bash
+    pip install requests openai
+    ```
 
-pip install -r requirements.txt
-
-Configure sua API:
-
-export OPENROUTER_API_KEY=sk-sua-chave-aqui
+3.  **Configure sua API Key:**
+    ```bash
+    # Linux/Mac
+    export OPENROUTER_API_KEY='sua-chave-aqui'
+    
+    # Windows (PowerShell)
+    $env:OPENROUTER_API_KEY='sua-chave-aqui'
+    ```
 
 ## Como usar
 
@@ -56,5 +60,10 @@ python http_security_headers.py --api-key sk-sua-chave http://192.168.186.129/dv
 
 # Observações:
 
-Este projeto faz parte dos meus estudos em **ethical hacking**. A ideia é aprender na prática como os cabeçalhos HTTP influenciam a segurança de aplicações web, identificar vulnerabilidades e aplicar inteligência artificial para gerar relatórios automatizados.
+Este projeto faz parte dos meus estudos em Ethical Hacking. O objetivo principal é:
 
+- Entender como os cabeçalhos HTTP influenciam a segurança de aplicações web.
+
+- Automatizar a identificação de vulnerabilidades (XSS, Clickjacking, etc).
+
+- Aplicar Inteligência Artificial para gerar relatórios técnicos acionáveis.
